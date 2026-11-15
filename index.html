@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CODEV — Digital Products & Web Studio</title>
+  <link rel="icon" type="image/svg+xml" href="./logo.svg" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <div class="container">
+    <nav class="navbar">
+      <a href="./" class="brand">
+        <img src="./logo.svg" alt="Codev Logo" />
+        <span class="brand-name">CO<span>D</span>EV</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="./" class="active">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="./about/">About</a></li>
+        <li><a href="#contact" class="nav-cta">Start a Project</a></li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="pill-badge">
+        <span class="pill-dot"></span>
+        CODEV STUDIO • WEB APPS &amp; DIGITAL TOOLS
+      </div>
+      <h1>
+        Building Fast &amp; <span class="highlight">Modern</span><br />
+        Digital Products
+      </h1>
+      <p>
+        Codev is an independent software studio creating interactive web apps,
+        privacy-first browser utilities, and clean frontend experiences built
+        for speed and everyday usability.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">Explore Products</a>
+        <a href="./about/" class="btn btn-secondary">About Codev →</a>
+      </div>
+    </header>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-num">4+</div>
+        <div class="stat-label">Live Web Products</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Browser-Ready &amp; Fast</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">24/7</div>
+        <div class="stat-label">Offline-First Architecture</div>
+      </div>
+    </div>
+
+    <section class="section" id="products">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Our Products</h2>
+          <p class="section-sub">Real web applications crafted under the Codev ecosystem.</p>
+        </div>
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="productivity">Productivity</button>
+          <button class="filter-btn" data-filter="utility">Utilities</button>
+          <button class="filter-btn" data-filter="brand">Brand</button>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="productsGrid">
+        <article class="card" data-category="productivity">
+          <div>
+            <div class="card-icon"><img src="./logos/table.png" alt="Table Hub Logo" /></div>
+            <h3>Table Hub</h3>
+            <p>
+              Interactive dynamic tables workspace with multi-table tabs, user
+              sign-in, column resizing, sorting, and export to Excel, CSV, and PDF.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Web App</span>
+              <span class="tag">Auth</span>
+              <span class="tag">Export</span>
+            </div>
+          </div>
+          <a class="card-link" href="https://hamza-gamal.github.io/table" target="_blank">Launch Table Hub →</a>
+        </article>
+
+        <article class="card" data-category="productivity">
+          <div>
+            <div class="card-icon"><img src="./logos/note.svg" alt="OfflineNote Logo" /></div>
+            <h3>OfflineNote</h3>
+            <p>
+              A private, offline-first notes application that stores your ideas,
+              reminders, and categories locally in your browser with zero sign-up.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Offline-First</span>
+              <span class="tag">LocalStorage</span>
+              <span class="tag">UI/UX</span>
+            </div>
+          </div>
+          <a class="card-link" href="https://hamza-gamal.github.io/note" target="_blank">Launch OfflineNote →</a>
+        </article>
+
+        <article class="card" data-category="utility">
+          <div>
+            <div class="card-icon"><img src="./logos/quran.png" alt="Quran Kareem Logo" /></div>
+            <h3>Quran Kareem</h3>
+            <p>
+              A serene, distraction-free Holy Quran platform for reading and
+              listening with instant surah search and responsive dark design.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Audio &amp; Text</span>
+              <span class="tag">Search</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+          <a class="card-link" href="https://hamza-gamal.github.io/quran" target="_blank">Open Quran Kareem →</a>
+        </article>
+
+        <article class="card" data-category="brand">
+          <div>
+            <div class="card-icon"><img src="./logos/hg.png" alt="HG Logo" /></div>
+            <h3>HG Portfolio</h3>
+            <p>
+              The official personal portfolio of Hamza Gamal, founder of Codev,
+              showcasing frontend engineering work, skills, and services.
+            </p>
+            <div class="card-tags">
+              <span class="tag">Founder</span>
+              <span class="tag">PWA</span>
+              <span class="tag">Showcase</span>
+            </div>
+          </div>
+          <a class="card-link" href="https://hamza-gamal.github.io/" target="_blank">Visit HG Portfolio →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">What Codev Builds</h2>
+          <p class="section-sub">Focused engineering from concept to deployment.</p>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card">
+          <div>
+            <div class="card-icon">&lt;/&gt;</div>
+            <h3>Frontend Engineering</h3>
+            <p>Pixel-accurate, responsive interfaces built with clean semantic HTML, modern CSS, and vanilla JavaScript.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="card-icon">⚡</div>
+            <h3>Interactive Web Apps</h3>
+            <p>Fast browser-based tools with local persistence, export pipelines, and smooth real-time interactions.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="card-icon">◈</div>
+            <h3>UI &amp; Brand Systems</h3>
+            <p>Consistent dark/light visual languages, custom logos, and cohesive design systems tailored to each product.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner" id="contact">
+      <h2>Want to Learn Our Story?</h2>
+      <p>
+        Discover the vision behind Codev, our product principles, and the roadmap
+        from solo web tools to a full digital studio.
+      </p>
+      <a href="./about/" class="btn btn-primary">Read About Codev →</a>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <span>© 2026 CODEV Studio — Founded by Hamza Gamal (HG).</span>
+        <div class="footer-links">
+          <a href="./">Home</a>
+          <a href="./about/">About</a>
+          <a href="https://github.com/hamza-gamal" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
