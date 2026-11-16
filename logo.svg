@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
   <defs>
-    <linearGradient id="cCircle" x1="4" y1="4" x2="59" y2="116" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cCircle" x1="4" y1="4" x2="60" y2="116" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
     </linearGradient>
-    <linearGradient id="dCircle" x1="61" y1="4" x2="116" y2="116" gradientUnits="userSpaceOnUse">
+    <linearGradient id="dCircle" x1="60" y1="4" x2="116" y2="116" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#ff5e5e"/>
       <stop offset="55%" stop-color="#ef4444"/>
       <stop offset="100%" stop-color="#b91c1c"/>
     </linearGradient>
   </defs>
-  <!-- Exact Left Semi-Circle Ring (White C): cx=60, cy=60, R=56, r=32, straight vertical edge at x=58.5 -->
-  <path d="M58.5 4.02 A56 56 0 0 0 58.5 115.98 L58.5 91.96 A32 32 0 0 1 58.5 28.04 Z" fill="url(#cCircle)"/>
-  <!-- Exact Right Semi-Circle (Crimson D): straight vertical stem at x=61.5, crisp 3px center line -->
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M61.5 4.02 A56 56 0 0 1 61.5 115.98 Z M77 32.94 A32 32 0 0 1 77 87.06 Z" fill="url(#dCircle)"/>
+  <!-- Exact Left Half (56px): White C meeting at dead-center x=60 -->
+  <path d="M60 4 A56 56 0 0 0 60 116 L60 92 A32 32 0 0 1 60 28 Z" fill="url(#cCircle)"/>
+  <!-- Exact Right Half (56px): Crimson D meeting at dead-center x=60 -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M60 4 A56 56 0 0 1 60 116 Z M78 33.54 A32 32 0 0 1 78 86.46 Z" fill="url(#dCircle)"/>
 </svg>
